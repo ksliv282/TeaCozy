@@ -1,0 +1,149 @@
+body {
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  height: 49px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  padding-top: 20px;
+
+}
+/* Format Logo */
+.header img {
+  display: flex;
+  height: 50px;
+  margin-left: 10px;
+}
+/* in-page navigation formatting*/
+
+nav {
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+  justify-content: space-around;
+  padding-left: 100px;
+
+}
+/* lock links seashell color */
+a {
+  color: seashell;
+}
+/* align header links */
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+.maincontent {
+  width: 1200px;
+  padding-top: 70px;
+  margin: auto;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* format image behind mission statement */
+#mission {
+  justify-content: center;
+  background-image: url(img-mission-background.jpg);
+  height: 700px;
+  padding-top: 90px;
+
+}
+/* format inside image */
+.missioncontent {
+  background-color: black;
+  text-align: center;
+  margin-top: 285px;
+  margin-bottom:285px;
+  width: 100%;
+}
+/* adjust space around Mission text */
+.missioncontent h2 {
+  padding-top: 10px;
+}
+.missioncontent h4 {
+  padding-bottom: 10px;
+  }
+}
+.tealist {
+  display: block;
+  text-align: center;
+  height: 700px;
+  width: 1000px;
+  padding-top: 60px;
+  margin: auto;
+}
+.teas {
+  display:flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+
+}
+.tealist .item {
+  height: 240px;
+  width: 300px;
+  text-align: center;
+  padding: 15px;
+}
+/* format product images */
+.item img {
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+}
+/* format image behind location list */
+#locations {
+  background-image: url(img-locations-background.jpg);
+  height: 500px;
+  padding-top: 40px;
+  margin-top: 60px;
+
+}
+/* flex container for location list */
+.locationslist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+#locations h2{
+  margin-bottom: 0px;
+}
+.location {
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+.contact h5 {
+  margin: 15px;
+}
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
