@@ -89,6 +89,9 @@ nav span {
   padding-top: 60px;
   margin: auto;
 }
+.tealist h2 {
+  margin-top: 80px;
+}
 .teas {
   display:flex;
   flex-wrap: wrap;
